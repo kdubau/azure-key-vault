@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rest-client'
+gem 'rest-client', '1.6.9'
 gem 'json'
 
 group :test, :development do
