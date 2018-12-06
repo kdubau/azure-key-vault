@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = %w[lib]
 
   s.add_runtime_dependency 'json'
-  s.add_runtime_dependency 'rest-client'
+  s.add_runtime_dependency('rest-client', '~> 1.6.9')
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec'
 end
